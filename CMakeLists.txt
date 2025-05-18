@@ -101,6 +101,7 @@ find_package(OpenCV REQUIRED)
 find_package(Sophus REQUIRED)
 find_package(Boost REQUIRED COMPONENTS thread)
 
+
 # Include directories for dependencies
 include_directories(
   ${EIGEN3_INCLUDE_DIR}
